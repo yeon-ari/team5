@@ -1,0 +1,44 @@
+/* Header.css */
+
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: orange;
+}
+
+.leftIcons,
+.rightIcons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.centerText {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoText {
+  font-family: "Cafe24Ssurround", sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+/* Add more styles as needed */

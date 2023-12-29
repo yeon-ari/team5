@@ -1,0 +1,56 @@
+/* FriendAddPage.css */
+/* FriendAddPage.css */
+/* FriendAddPage.css */
+
+body {
+    font-family: 'Cafe24Ssurround', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e65c00;
+  }
+  
